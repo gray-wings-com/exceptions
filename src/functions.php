@@ -15,7 +15,7 @@ use Graywings\Exceptions\ErrorExceptions\UserDeprecatedException;
 use Graywings\Exceptions\ErrorExceptions\UserErrorException;
 use Graywings\Exceptions\ErrorExceptions\UserNoticeException;
 use Graywings\Exceptions\ErrorExceptions\UserWarningException;
-use Graywings\Exceptions\ErrorExceptions\WarningExceptions;
+use Graywings\Exceptions\ErrorExceptions\WarningException;
 
 /**
  * @return void
@@ -33,7 +33,7 @@ function initErrorhandler(): void
         /** @noinspection PhpUnhandledExceptionInspection */
         match ($severity) {
             E_ERROR => throw new ErrorException(...$argument),
-            E_WARNING => throw new WarningExceptions(...$argument),
+            E_WARNING => throw new WarningException(...$argument),
             E_PARSE => throw new ParseException(...$argument),
             E_NOTICE => throw new NoticeException(...$argument),
             E_CORE_ERROR => throw new CoreErrorException(...$argument),

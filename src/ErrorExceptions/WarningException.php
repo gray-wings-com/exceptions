@@ -5,6 +5,6 @@ namespace Graywings\Exceptions\ErrorExceptions;
 
 use Graywings\Exceptions\GraywingsException;
 
-class WarningExceptions extends \ErrorException implements GraywingsException
+class WarningException extends \ErrorException implements GraywingsException
 {
 }
