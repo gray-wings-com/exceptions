@@ -1,0 +1,20 @@
+{
+    "name": "graywings/exceptions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Graywings\\Exceptions\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "tterashima",
+            "email": "taira.terashima@gmail.com"
+        }
+    ],
+    "require": {}
+}
