@@ -1,31 +1,14 @@
 # graywings/exceptions
 
+Graywings/Exception is a broad category of PHP exceptions.
+They inherit from the internal GraywingsException interface. 
+They can be separated from external exceptions and handled together.
 
+## Usage
 
-## Getting Started
+In the initialization portion of the code, call the function as follows.
 
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/graywings/graywings/exceptions.git
-
-HTTPS clone URL: https://git.jetbrains.space/graywings/graywings/exceptions.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
+```php
+<?php
+initErrorhandler();
 ```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
