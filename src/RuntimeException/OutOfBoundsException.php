@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Graywings\RuntimeException;
+namespace Graywings\Exceptions\RuntimeException;
 
 use Graywings\Exceptions\GraywingsException;
 
